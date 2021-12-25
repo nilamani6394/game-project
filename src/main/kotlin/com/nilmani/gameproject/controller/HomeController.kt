@@ -9,7 +9,7 @@ class HomeController {
 
     @GetMapping("/chek")
     fun getHome():String{
-        return "index"
+        return "Index"
     }
 
 }
