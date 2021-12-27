@@ -5,11 +5,9 @@ import org.springframework.web.bind.annotation.GetMapping
 
 @Controller
 class HomeController {
-
-
     @GetMapping("/chek")
     fun getHome():String{
-        return "Index"
+        return "home"
     }
 
 }
